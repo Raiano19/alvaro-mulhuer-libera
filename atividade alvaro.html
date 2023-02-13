@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATIVIDADE</title>
+    <script src="raiano.js"></script>
+<style>
+body {
+        font-family: Arial, sans-serif;
+        background-image: linear-gradient( 90deg, rgb(119, 0, 255),rgb(0, 102, 255));
+         color: rgb(255, 255, 255);
+    
+      }
+
+
+      button {
+        padding: 10px 20px;
+        background-color: #a3a4e0;
+        opacity: 0,1;
+        color: #1c1c1e;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+    font-family: Arial, sans-serif;
+    color:aliceblue
+      }
+
+    label, input { padding: 10px 20px;
+        background-color: #9698e6;
+        opacity: 0,1;
+        color: #1c1c1e;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+    font-family: Arial, sans-serif;
+    color:aliceblue
+
+
+
+
+}
+h2{
+    padding: 10px 20px;
+        background-color: #9ea0e7;
+        border-radius: 30px;
+        opacity: 0,1;
+        border: none;
+        cursor: pointer;
+    font-family: Arial, sans-serif;
+    color:aliceblue
+
+ 
+
+}
+hr{padding: 03px 05px;
+        background-color: #fcfcfc;
+        border-radius: 30px;
+        opacity: 0,1;
+        border: none;
+        cursor: pointer;
+
+
+
+
+}
+.sectiondiv{  padding: 10px 20px;
+        background-color: #9698e6;
+        opacity: 0,1;
+        color: #1c1c1e;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+    font-family: Arial, sans-serif;
+    color:aliceblue}
+</style>
+</head>
+<body>
+     
+        <h2>TRABALHINHO DO 4º BIMESTRE - PARTE 2 - Raianderson Germano</h2>
+        <hr />
+       
+        <h2>Informações das Análises</h2>
+        <div id="analiseSim" style="color: rgb(255, 255, 255); font-weight: bold"></div>
+        <div id="analiseNao" style="color: rgb(255, 255, 255); font-weight: bold"></div>
+        <div id="oldPerson"></div>
+        <hr />
+        <h2>Informações da pessoa</h2>
+        <label for="pessoa">Nome da Pessoa:</label>
+        <input type="text" id="pessoa" />
+        <label for="idade">Idade da Pessoa:</label>
+        <input type="number" id="idade" />
+        <p>
+          <button id="botao" type="submit" onclicK="contabilizar()">
+            Clique Aqui Para Analisar Situação da Pessoa
+          </button>
+        </p>
+    
+        <hr />
+        <h2>Resultado das Análises</h2>
+        <div id="aprovados" style="color: rgb(255, 255, 255)"></div>
+        <div id="reprovados" style="color: rgb(255, 255, 255)"></div>
+        <div id="listaResultados" style="font-weight: bold"></div>
+        <p>
+          <button id="botao" type="submit" onclicK="results()">
+            Clique Aqui Para Mostrar Os Resultados
+          </button>
+        </p>
+        <hr />
+       
+
+</body>
+</html>
